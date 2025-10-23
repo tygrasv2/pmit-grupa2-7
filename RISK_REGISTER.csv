@@ -1,0 +1,6 @@
+
+id,ryzyko,prawdopodobienstwo,wpływ,reakcja,właściciel,plan_awaryjny
+R1,Brak doświadczenia z CI,Średnie,Wysoki,Szkolenie+szablon CI,DevOps,Wyłączyć regułę i przejść małymi krokami
+R2,Opóźnienia w komunikacji,Wysokie,Średni,Standupy 10min/tydz,PM,Asynchroniczny raport w README
+R3,Nadmiar zakresu,Średnie,Wysoki,Timeboxing i MoSCoW,PM,Obciąć funkcje NICE-TO-HAVE
+R4,Flaky testy,Niskie,Średni,Seed losowości,Tester,Wyłączyć test i naprawić w 24h

@@ -1,0 +1,10 @@
+
+id,tytuł,opis,story_points,priorytet,status,akceptacja
+US1,Rejestr wydatku,Jako użytkownik chcę dodać wydatek aby go śledzić,3,MUST,Todo,Po dodaniu rekord widoczny w liście
+US2,Lista wydatków,Jako użytkownik chcę zobaczyć listę ostatnich wydatków,3,MUST,Todo,Lista pokazuje kategorię/kwotę/datę
+US3,Podsumowanie 30 dni,Jako użytkownik chcę zobaczyć sumę i liczbę wydatków za 30 dni,5,MUST,Todo,Suma i liczba zgodne z danymi
+US4,Eksport CSV,Jako użytkownik chcę eksportować wydatki do CSV,3,SHOULD,Todo,Pobiera plik CSV z nagłówkami
+US5,Walidacja danych,Jako użytkownik chcę walidację pól aby unikać błędów,2,SHOULD,Todo,Błędne dane blokują zapis
+US6,Obsługa kategorii,Jako użytkownik chcę przypisać kategorię do wydatku,2,COULD,Todo,Kategorie zapisują się i filtrują
+TECH1,Pipeline CI,Konfiguracja testów+lint w CI,2,MUST,Doing,CI przechodzi zielono
+TECH2,Analiza jakości,Integracja SonarQube,3,COULD,Todo,Raport metryk jakości
