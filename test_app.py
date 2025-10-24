@@ -1,6 +1,6 @@
 
 from datetime import datetime, timedelta
-from src.app import add_expense, list_expenses, summary_last_30_days
+from app import add_expense, list_expenses, summary_last_30_days
 
 def test_add_and_list():
     before = len(list_expenses())
