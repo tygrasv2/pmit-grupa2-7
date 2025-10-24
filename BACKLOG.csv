@@ -1,10 +1,10 @@
-
 id,tytuł,opis,story_points,priorytet,status,akceptacja
-US1,Rejestr wydatku,Jako użytkownik chcę dodać wydatek aby go śledzić,3,MUST,Todo,Po dodaniu rekord widoczny w liście
-US2,Lista wydatków,Jako użytkownik chcę zobaczyć listę ostatnich wydatków,3,MUST,Todo,Lista pokazuje kategorię/kwotę/datę
-US3,Podsumowanie 30 dni,Jako użytkownik chcę zobaczyć sumę i liczbę wydatków za 30 dni,5,MUST,Todo,Suma i liczba zgodne z danymi
-US4,Eksport CSV,Jako użytkownik chcę eksportować wydatki do CSV,3,SHOULD,Todo,Pobiera plik CSV z nagłówkami
-US5,Walidacja danych,Jako użytkownik chcę walidację pól aby unikać błędów,2,SHOULD,Todo,Błędne dane blokują zapis
-US6,Obsługa kategorii,Jako użytkownik chcę przypisać kategorię do wydatku,2,COULD,Todo,Kategorie zapisują się i filtrują
-TECH1,Pipeline CI,Konfiguracja testów+lint w CI,2,MUST,Doing,CI przechodzi zielono
-TECH2,Analiza jakości,Integracja SonarQube,3,COULD,Todo,Raport metryk jakości
+US1,Dodanie planu treningowego,Jako użytkownik chcę dodać plan treningowy aby móc dodać ćwiczenia,5,MUST,Todo,Po zapisaniu plan widoczny w liście planów
+US2,Dodanie ćwiczenia do planu,Jako użytkownik chcę dodać ćwiczenie do istniejącego planu aby śledzić swoje postępy,5,MUST,Todo,Ćwiczenie pojawia się w planie po dodaniu
+US3,Lista planów treningowych,Jako użytkownik chcę zobaczyć listę utworzonych planów treningowych,3,MUST,Todo,Lista pokazuje nazwę planu i liczbę ćwiczeń
+US4,Wykres postępów,Jako użytkownik chcę zobaczyć wykres pokazujący postęp w czasie,5,MUST,Todo,Wykres pokazuje poprawne dane i aktualizuje się po dodaniu treningu
+US5,Walidacja danych treningu,Jako użytkownik chcę aby aplikacja walidowała dane przy dodawaniu planów i ćwiczeń aby uniknąć błędów,2,SHOULD,Todo,Niepoprawne dane blokują zapis
+US6,Edycja i usuwanie planu,Jako użytkownik chcę móc edytować i usuwać plan treningowy,3,COULD,Todo,Edytowany lub usunięty plan znika lub aktualizuje się na liście
+TECH1,Pipeline CI,Konfiguracja testów jednostkowych i lintingu w CI,2,MUST,Doing,Pipeline przechodzi zielono
+TECH2,Analiza jakości,Integracja SonarQube do analizy jakości,3,COULD,Todo,Raport metryk jakości
+TECH3,Testy jednostkowe,Dodanie podstawowych testów jednostkowych dla logiki dodawania planów i ćwiczeń,3,MUST,Todo,Wszystkie testy przechodzą poprawnie
