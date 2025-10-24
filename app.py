@@ -6,10 +6,14 @@ _EXPENSES: List[Dict] = []
 
 
 def add_expense(
-    amount: float, category: str, date: datetime, note: str = ""
+    amount: float,
+    category: str,
+    date: datetime,
+    note: str = "",
 ) -> Dict:
     if amount <= 0:
         raise ValueError("amount must be > 0")
+
     item = {
         "id": len(_EXPENSES) + 1,
         "amount": float(amount),
