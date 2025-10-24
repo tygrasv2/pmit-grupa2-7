@@ -1,24 +1,27 @@
-
 # Sprint 1 — Plan (2 tygodnie)
 
 ## Cel sprintu
-Dostarczyć MVP: dodawanie wydatków, lista, podsumowanie 30 dni, zielone CI.
+Dostarczyć MVP: dodawanie planów treningowych, dodawanie ćwiczeń, lista planów, wykresy postępów, zielone CI.
 
 ## Zakres (wybrane z BACKLOG.csv)
-- US1, US2, US3, TECH1
+- US1, US2, US3, US4, TECH1
 
 ## Zadania techniczne
-- Inicjalizacja repo i struktury
+- Inicjalizacja repo i struktury projektu
 - Implementacja modelu i prostego storage (in-memory + zapis JSON/CSV)
-- Endpointy: POST /expenses, GET /expenses, GET /summary
-- Testy jednostkowe do kluczowych funkcji
-- Konfiguracja CI (pytest, flake8, black, bandit)
+- Funkcjonalności:
+  - Dodawanie planu treningowego
+  - Dodawanie ćwiczenia do planu
+  - Lista planów treningowych
+  - Generowanie wykresu postępów (prosta wizualizacja)
+- Testy jednostkowe dla kluczowych funkcji
+- Konfiguracja CI/CD (pytest, flake8, black)
 
 ## Definition of Done
-- Testy zielone (>= 80% coverage mile widziane)
+- Testy jednostkowe zielone (>= 80% coverage mile widziane)
 - Lint bez błędów
 - PR z code review (>= 1 approval)
 - Uaktualnione README i changelog sprintu
 
 ## Ryzyka sprintu
-- Zbyt ambitny zakres – obciąć US3 na prostsze KPI
+- Zbyt ambitny zakres – jeśli nie zdążymy z US4 (wykresy), ograniczyć do prostej wizualizacji danych w tabeli
