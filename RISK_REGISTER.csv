@@ -1,5 +1,5 @@
 id,ryzyko,prawdopodobienstwo,wpływ,reakcja,właściciel,plan_awaryjny
-R1,Zbyt duży zakres funkcjonalności,Średnie,Wysoki,Timeboxing,PM,Ograniczyć do US1-US4 i TECH1 w MVP
+R1,Zbyt duży zakres funkcjonalności,Średnie,Wysoki,Timeboxing,PM,Ograniczyć do US1 i TECH1 w MVP
 R2,Błędy w danych użytkowników,Średnie,Wysoki,Walidacja,Backend,Implementacja walidacji (US5)
 R3,Awaria serwera lub utrata danych,Niskie,Wysoki,Backup,DevOps,Backup i plan przywracania
 R4,Brak pokrycia testami,Średnie,Średni,Testy jednostkowe,Developerzy,TECH3 - dodać testy kluczowych funkcji
